@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins';
+}
+
+html,body {
+   height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    padding-top: 60px;
+    position: relative;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.buttons{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgb(161, 168, 168);
+    box-shadow: 3px 3px 7px 1px rgb(116, 110, 110);
+    letter-spacing: 1px;
+    transition: background-color 0.15s;
+}
+
+.buttons:hover{
+    background-color: rgb(138, 132, 132);
+    color: rgb(193, 198, 198);
+}
+
+.main p{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+#countLabel{
+    font-size: 9em;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+}
+
+#Paragraph{
+    color: #242121;
+}
+
+#Paragraph i{
+    font-size: 22px;
+    margin-left: 4px;
+}
